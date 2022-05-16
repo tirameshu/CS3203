@@ -1,0 +1,8 @@
+#pragma once
+
+enum ExpressionTypeEnum {
+	CONDITIONAL_EXPRESSION = 0, 
+	RELATIONAL_EXPRESSION = 1, 
+	STANDARD_EXPRESSION = 2,
+	FACTOR = 3
+};

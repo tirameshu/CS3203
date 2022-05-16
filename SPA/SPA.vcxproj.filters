@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PKB">
+      <UniqueIdentifier>{462fe849-64d6-4ecb-afd6-e5cc113c28a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB">
+      <UniqueIdentifier>{fc47b1e1-66ff-446f-a224-0b2f5c6ee41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignEntityClass">
+      <UniqueIdentifier>{56418cb2-e176-45e9-b7d2-a3be0c5112d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DesignEntityClass">
+      <UniqueIdentifier>{198a4abf-8a73-4fb7-948a-d84e4eb556fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{edef4c27-a670-4774-8bbb-3a1836c4fe50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{24730665-da5e-494c-88f3-0e3b8b0aa815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{86cb2005-19c5-4176-94c5-5968cddc7125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{1084ca79-3fa6-412c-8d5e-7b48e9bf6486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignExtractor">
+      <UniqueIdentifier>{0591d5bb-3311-4fcc-86fb-cab971c3c5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DesignExtractor">
+      <UniqueIdentifier>{1850ca9e-1212-4bc1-9c47-c939e6653fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser\Processor">
+      <UniqueIdentifier>{c39cf27d-01e3-4435-9df7-2db48d64ae2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser\Processor">
+      <UniqueIdentifier>{4835489f-7df3-4063-9647-7a2694123483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{4e536ab9-827e-4b9d-a7b8-e4c546b68245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL">
+      <UniqueIdentifier>{9a0f4e1d-a164-49d5-9811-fff0184c8a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PQL">
+      <UniqueIdentifier>{da71099f-73ad-48ad-bdbc-4f69df2bda1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility\ParserUtilities">
+      <UniqueIdentifier>{08a9e55e-4dd8-4294-beb1-f6b500121f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\ParserUtilities">
+      <UniqueIdentifier>{aeb967d8-dfe1-4651-bec2-356139f07c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\ParserUtilities\ExpressionUtilities">
+      <UniqueIdentifier>{e5915b9e-2b40-464c-b732-9ce6fc53cf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility\ParserUtilities\ExpressionUtilities">
+      <UniqueIdentifier>{cbb30585-5f56-4784-aaa5-253c0446b818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignExtractor\Relationships">
+      <UniqueIdentifier>{4444d4fb-d2c7-47d1-882e-f212a6375404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DesignExtractor\Relationships">
+      <UniqueIdentifier>{3b4edafd-269a-4968-8fbc-417c6d8e19b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PQL\QP">
+      <UniqueIdentifier>{d6b266e3-24fc-4098-82f1-e00a4e8624db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PQL\QE">
+      <UniqueIdentifier>{39c9b874-737c-49d3-9113-4033136efd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\QP">
+      <UniqueIdentifier>{2c16d31a-1125-499e-a86b-3ae1def2f9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\QE">
+      <UniqueIdentifier>{03361324-cb10-45c4-a4cd-b8cb68061c0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\ParserReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PKB.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Statement.cpp">
+      <Filter>Source Files\DesignEntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParentStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FollowsStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParserReader.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AssignStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UsesStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ModifiesStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\DesignExtractor.cpp">
+      <Filter>Source Files\DesignExtractor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\StatementTypeIdentifier.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PrintProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ProcedureProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ReadProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IfProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\LexicalSyntaxCheck.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParenthesesValidator.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParserException.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ConditionalExpressionOperatorChecker.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ExpressionOperatorChecker.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ExpressionTokenizer.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParserShuntingConverter.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\RelationalExpressionOperatorChecker.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ExpressionParser.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ConditionalPostfixEvaluator.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ConditionalExpressionExtractor.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ChildProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WhileProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AssignProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\StandardExpressionExtractor.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\StandardPostfixEvaluator.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryParserUtil.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CallStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IfStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WhileStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CallProcessor.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryEvaluatorUtil.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\DesignExtractorUtil.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextBipStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsBipStore.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CallsExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FollowsExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParentExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UMSExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UMPExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsExtractor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsBipProcessor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextBipProcessor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextBipStarProcessor.cpp">
+      <Filter>Source Files\DesignExtractor\Relationships</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CallsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AssignEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\CallsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FollowsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FollowsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\IfEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ModifiesEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextBipEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextBipStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NextStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Optimizer.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParentEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ParentStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PatternEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SuchThatEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UsesEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WhileEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WithEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PatternClauseParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Query.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryClause.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryPatternClause.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryResultClauseParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QuerySuchThatClause.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\QueryWithClause.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\SuchThatClauseParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\WithClauseParser.cpp">
+      <Filter>Source Files\PQL\QP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsBipEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AffectsBipStarEvaluator.cpp">
+      <Filter>Source Files\PQL\QE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\PKB.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Statement.h">
+      <Filter>Header Files\DesignEntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParentStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\FollowsStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AssignStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StatementTypeEnum.h">
+      <Filter>Header Files\DesignEntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UsesStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ModifiesStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParserReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\DesignExtractor.h">
+      <Filter>Header Files\DesignExtractor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParserReader.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StatementTypeIdentifier.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PrintProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ProcedureProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ArgumentTypes.h">
+      <Filter>Header Files\PQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\RelRef.h">
+      <Filter>Header Files\PQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ReadProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IfProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\LexicalSyntaxCheck.h">
+      <Filter>Header Files\Utility\ParserUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParserException.h">
+      <Filter>Header Files\Utility\ParserUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParserExceptionEnum.h">
+      <Filter>Header Files\Utility\ParserUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ConditionalExpressionOperatorChecker.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ExpressionOperatorChecker.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ExpressionTokenizer.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParenthesesValidator.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParserShuntingConverter.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\RelationalExpressionOperatorChecker.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ExpressionParser.h">
+      <Filter>Header Files\Utility\ParserUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ExpressionTypeEnum.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ConditionalPostfixEvaluator.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ConditionalExpressionExtractor.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\HasherFunctions.h">
+      <Filter>Header Files\Utility\ParserUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ChildProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WhileProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AssignProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StandardExpressionExtractor.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StandardPostfixEvaluator.h">
+      <Filter>Header Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\CallStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryParserUtil.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IfStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WhileStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\CallProcessor.h">
+      <Filter>Header Files\Parser\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryEvaluatorUtil.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AttrName.h">
+      <Filter>Header Files\PQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\DesignExtractorUtil.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ClauseType.h">
+      <Filter>Header Files\PQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextBipStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsBipStore.h">
+      <Filter>Header Files\PKB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\CallsExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\FollowsExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParentExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UMSExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UMPExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsExtractor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsBipProcessor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextBipProcessor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextBipStarProcessor.h">
+      <Filter>Header Files\DesignExtractor\Relationships</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AssignEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\CallsEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\CallsStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\FollowsEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\FollowsStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\IfEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ModifiesEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextBipEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextBipStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NextStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParentEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Optimizer.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ParentStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PatternClauseParser.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\PatternEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Query.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryClause.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryParser.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryPatternClause.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryResultClauseParser.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QuerySuchThatClause.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\QueryWithClause.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SuchThatClauseParser.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\SuchThatEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\UsesEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WhileEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WithEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\WithClauseParser.h">
+      <Filter>Header Files\PQL\QP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsBipEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AffectsBipStarEvaluator.h">
+      <Filter>Header Files\PQL\QE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

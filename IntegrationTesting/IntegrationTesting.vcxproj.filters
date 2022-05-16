@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PQL">
+      <UniqueIdentifier>{9b25560b-9650-44c8-8308-dfa3f66135ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\TestData">
+      <UniqueIdentifier>{c8b9c426-16d3-4295-b5e9-941c8dc1c2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE">
+      <UniqueIdentifier>{c75af10b-8889-4dd2-aa77-81e64dd96a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE\TestData">
+      <UniqueIdentifier>{9b5a6223-9696-4ee7-b6a0-c8ff646b0309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE\CyclicCallsTest">
+      <UniqueIdentifier>{3278ac1c-217a-4c42-8b9c-5bd617073c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{f33b2bd6-e263-453d-8e97-d4526fb94fc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowsEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifiesEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="UsesEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowsTEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentStarEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentStarEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignExtractorProcsTest.h">
+      <Filter>Source Files\DE\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="CallsEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="CallsTEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="NextEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="NextTEvaluatorTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignExtractorAffectsTest.h">
+      <Filter>Source Files\DE\TestData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoClausesQueryEvaluatorEmptyPkbTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="NoClausesQueryEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowsEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifiesEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="UsesEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentStarEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowsTEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorProcsTest.cpp">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorSingleProcTest.cpp">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorRecursionTest1.cpp">
+      <Filter>Source Files\DE\CyclicCallsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorRecursionTest2.cpp">
+      <Filter>Source Files\DE\CyclicCallsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="CallsEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="CallsTEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="NextEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="NextTEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcedureProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="CallProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="IfProcessorIT.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorAffectsTest.cpp">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

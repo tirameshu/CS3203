@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{8b56e002-5c30-412d-8d5e-58b18f9191b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{b19b8ffc-5c40-4024-9bbf-3a0eaf8fc4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser\Processor">
+      <UniqueIdentifier>{8bd5febd-b77f-4ebe-8c9c-63fa65b27b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB">
+      <UniqueIdentifier>{2f1dd833-a601-49d8-bebb-d034a0884170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PKB\TestData">
+      <UniqueIdentifier>{0db6d402-d019-4c4c-b073-e2f808d81713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\ParserUtilities">
+      <UniqueIdentifier>{4ea0d6ed-1941-4b0f-b1dd-ab65aec17ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\ParserUtilities\ExpressionUtilities">
+      <UniqueIdentifier>{6000c28a-e095-4f86-8f49-0a61501dba9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL">
+      <UniqueIdentifier>{a319fafe-2702-48ea-a8cd-4251d7a9338f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PQL\TestData">
+      <UniqueIdentifier>{10283d76-34c5-4665-bbb5-8cba9f1f89c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE">
+      <UniqueIdentifier>{512dcc97-46e0-4340-980b-c2c2bccafeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE\Test Data">
+      <UniqueIdentifier>{df280caa-7481-4ef2-81fd-2fc3badcb391}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowsStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="PKBTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryParserTestData.h">
+      <Filter>Source Files\PQL\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignExtractorTestData.h">
+      <Filter>Source Files\DE\Test Data</Filter>
+    </ClInclude>
+    <ClInclude Include="NextStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifiesStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="UsesStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="NextBipStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectsStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectsBipStoreTestData.h">
+      <Filter>Source Files\PKB\TestData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidQueryEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionParserTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatementTypeIdentifierTest.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowsStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalSyntaxCheckTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ParenthesesValidatorTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTokenizerTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserShuntingConverterTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionParserTest.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionalPostfixEvaluatorTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionalExpressionExtractorTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidQueryEvaluatorTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifiesStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="UsesStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="PKBTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryParserTest.cpp">
+      <Filter>Source Files\PQL</Filter>
+    </ClCompile>
+    <ClCompile Include="IfProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionalExpressionOperatorCheckerTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationalExpressionOperatorCheckerTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardExpressionExtractorTest.cpp">
+      <Filter>Source Files\Utility\ParserUtilities\ExpressionUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcedureProcessorTest.cpp">
+      <Filter>Source Files\Parser\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorTestData.cpp">
+      <Filter>Source Files\DE\Test Data</Filter>
+    </ClCompile>
+    <ClCompile Include="NextStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignExtractorCallTest.cpp">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="NextBipStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectsStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectsBipStoreTest.cpp">
+      <Filter>Source Files\PKB</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
