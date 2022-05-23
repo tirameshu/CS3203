@@ -39,6 +39,7 @@ SPA works by:
 # Usage
 
 Visual Studio version used: Visual Studio 2019
+
 Configuration to use: Release
 
 ## Instructions
