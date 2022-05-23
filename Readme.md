@@ -36,6 +36,9 @@ SPA works by:
 - Processing the PQL queries based on the information found in the PKB
 - Returning the results to the user
 
+# Reference
+This project was completed by Team20 as part of [NUS CS3203](https://github.com/nus-cs3203/project-wiki/wiki) course project.
+
 # Usage
 
 Visual Studio version used: Visual Studio 2019
