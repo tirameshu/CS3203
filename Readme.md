@@ -41,7 +41,7 @@ SPA works by:
 Visual Studio version used: Visual Studio 2019
 Configuration to use: Release
 
-Instructions
+## Instructions
 Open the StartupSPASolution.sln using Visual Studio 2019 and build the solution under the Release configuration. Do set the AutoTester as the Startup Project.
 The AutoTester can run in two ways:
 1.	AutoTester can run through the Local Windows Debugger. Do note that this would run based on the ..\Team20\Code20\Tests\Sample_source.txt and ..\Team20\Code20\Tests\Sample_queries.txt. Currently, the Sample_source.txt and Sample_queries.txt are based on the files provided in the original repository which contain call stmts and more than 1 procedure which are not part of the Iteration 1 Concrete Syntax Grammar for SIMPLE. 
